@@ -150,6 +150,10 @@ const IconContainer = styled.div`
     cursor: pointer;
   }
 `
+const Link = styled.a`
+  cursor: pointer;
+  color: rgb(204, 215, 245);
+`
 
 const SectionMainProject = () => {
   return (
@@ -200,8 +204,18 @@ const SectionMainProject = () => {
                   </LinkContainer>
 
                   <IconContainer>
-                    <IoMdOpen size="2rem"></IoMdOpen>
-                    <FiGithub size="2rem"></FiGithub>
+                    <Link
+                      href="https://621e85bd0b8c921ace762106--musing-lichterman-f22c19.netlify.app/"
+                      target="_blank"
+                    >
+                      <IoMdOpen size="2rem" />
+                    </Link>
+                    <Link
+                      href="https://github.com/juanluischaurant/react-calculator"
+                      target="_blank"
+                    >
+                      <FiGithub size="2rem" />
+                    </Link>
                   </IconContainer>
                 </FeaturedContainerFooter>
               </FeaturedContainerContent>
@@ -243,8 +257,18 @@ const SectionMainProject = () => {
                   </LinkContainer>
 
                   <IconContainer>
-                    <IoMdOpen size="2rem"></IoMdOpen>
-                    <FiGithub size="2rem"></FiGithub>
+                    <Link
+                      href="https://621e85bd0b8c921ace762106--musing-lichterman-f22c19.netlify.app/"
+                      target="_blank"
+                    >
+                      <IoMdOpen size="2rem" />
+                    </Link>
+                    <Link
+                      href="https://github.com/juanluischaurant/react-calculator"
+                      target="_blank"
+                    >
+                      <FiGithub size="2rem" />
+                    </Link>
                   </IconContainer>
                 </FeaturedContainerFooter>
               </FeaturedContainerContent>
