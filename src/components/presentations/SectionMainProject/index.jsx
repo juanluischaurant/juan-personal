@@ -65,7 +65,7 @@ const BodyContainer = styled.div`
 
   @media ((min-width: ${(props) => props.theme.breakpoints.largeX1})) {
     flex-direction: row;
-    column-gap: 4em;
+    column-gap: 2.4em;
   }
 `
 
@@ -75,6 +75,7 @@ const BodyContainer = styled.div`
 const FeaturedContainer = styled.div`
   background: rgb(11, 41, 66);
   display: flex;
+  min-width: 50%;
 
   flex-direction: column;
   align-items: center;
@@ -97,6 +98,7 @@ const Image = styled.img.attrs((props) => ({ src: props.imageUrl }))`
 
 const FeaturedContainerContent = styled.div`
   max-width: 85%;
+  margin-top: -2em;
 `
 
 const FeaturedContainerDate = styled.div`
@@ -172,19 +174,21 @@ const SectionMainProject = () => {
 
               <FeaturedContainerContent>
                 <FeaturedContainerDate>
-                  October 25 - November 1, 2021
+                  February 25 - March 2, 2022
                 </FeaturedContainerDate>
-                <FeaturedContainerTitle>A cool Project</FeaturedContainerTitle>
+                <FeaturedContainerTitle>
+                  Simple Calculator
+                </FeaturedContainerTitle>
 
                 <FeaturedContainerText>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A,
-                    unde? Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Temporibus, est!
+                    A simple calculator developed using React, CSS Grid/Flexbox.
+                    The best part of developing this app was using the
+                    "useReducer()" hook for handling state.
                   </p>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A,
-                    unde?
+                    Managing state with React Hooks is great since there’s no
+                    need to install external packages or add a bunch of files.
                   </p>
                 </FeaturedContainerText>
 
@@ -227,7 +231,7 @@ const SectionMainProject = () => {
                   </p>
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. A,
-                    unde?
+                    hola si, de eso se trata todo esto. unde?
                   </p>
                 </FeaturedContainerText>
 
