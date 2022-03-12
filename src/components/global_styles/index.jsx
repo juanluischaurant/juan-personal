@@ -1,11 +1,11 @@
-import { createGlobalStyle } from "styled-components";
-import theme from "./theme";
+import { createGlobalStyle } from 'styled-components'
+import theme from './theme'
 
 const GeneralPageStyling = createGlobalStyle`
     
     * {
         box-sizing: border-box;
-        font-family: 'Open Sans';
+        font-family: 'Open Sans', Arial, sans-serif;
     }
 
     :root {

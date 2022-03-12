@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styled, { keyframes, ThemeProvider } from 'styled-components'
 import theme from '../../global_styles/theme'
 import './Footer.css'
-import { YoutubeIcon, TwitterIcon, GoTopIcon } from '../Icons'
+import { GoTopIcon } from '../Icons'
 
 const Icon = ({ children, color, hoverColor, ...props }) => {
   const [hover, setHover] = useState(false)
@@ -176,13 +176,19 @@ const Footer = () => {
 
           <FooterLayoutSocialMedia>
             <div className="icon">JL</div>
-            <a href="" className="social-icon">
+            <a
+              href="https://github.com/juanluischaurant"
+              className="social-icon"
+            >
               github
             </a>
-            <a href="" className="social-icon">
+            <a href="https://twitter.com/juanluis_nt" className="social-icon">
               twitter
             </a>
-            <a href="" className="social-icon">
+            <a
+              href="https://www.linkedin.com/in/juanluischaurant/"
+              className="social-icon"
+            >
               linkedin
             </a>
           </FooterLayoutSocialMedia>
