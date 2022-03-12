@@ -58,7 +58,7 @@ const LeftLine = styled.div`
 const BodyContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 
   margin-top: calc(4em + 2em);
@@ -76,6 +76,7 @@ const FeaturedContainer = styled.div`
   background: rgb(11, 41, 66);
   display: flex;
   min-width: 50%;
+  min-height: 700px;
 
   flex-direction: column;
   align-items: center;
@@ -233,19 +234,20 @@ const SectionMainProject = () => {
 
               <FeaturedContainerContent>
                 <FeaturedContainerDate>
-                  October 25 - November 1, 2021
+                  March 1 - March 9, 2022
                 </FeaturedContainerDate>
-                <FeaturedContainerTitle>A cool Project</FeaturedContainerTitle>
+                <FeaturedContainerTitle>Notes App</FeaturedContainerTitle>
 
                 <FeaturedContainerText>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A,
-                    unde? Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Temporibus, est!
+                    A compact note-taking app that actually works, it uses Local
+                    Storage for persistng user's data. It also includes an
+                    option for filtering the list of notes based on title or
+                    content.
                   </p>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A,
-                    hola si, de eso se trata todo esto. unde?
+                    It's build with React, taking advantage of hooks such as
+                    useEffect, useState, useRef. As well as prop drilling.
                   </p>
                 </FeaturedContainerText>
 
